@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\ImalatMontaj.Talep.Mvc.csproj": {}
+    "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\ImalatMontaj.Talep.Mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj": {
+    "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj",
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj",
         "projectName": "ImalatMontaj.Core",
-        "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj",
-        "packagesPath": "C:\\Users\\MOD5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\obj\\",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MOD5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,20 +60,20 @@
         }
       }
     },
-    "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj": {
+    "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj",
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj",
         "projectName": "ImalatMontaj.Talep.Business",
-        "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj",
-        "packagesPath": "C:\\Users\\MOD5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Business\\obj\\",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MOD5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,8 +86,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj"
+              "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj"
               }
             }
           }
@@ -116,20 +116,20 @@
         }
       }
     },
-    "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj": {
+    "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj",
         "projectName": "ImalatMontaj.Talep.DataAccess",
-        "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\MOD5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\ImalatMontaj.Talep.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MOD5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,8 +142,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj": {
-                "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj"
+              "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj": {
+                "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj"
               }
             }
           }
@@ -172,20 +172,20 @@
         }
       }
     },
-    "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj": {
+    "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj",
         "projectName": "ImalatMontaj.Talep.Entities",
-        "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj",
-        "packagesPath": "C:\\Users\\MOD5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\obj\\",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\ImalatMontaj.Talep.Entities.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MOD5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,8 +198,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj": {
-                "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj"
+              "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj": {
+                "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj"
               }
             }
           }
@@ -228,20 +228,20 @@
         }
       }
     },
-    "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\ImalatMontaj.Talep.Mvc.csproj": {
+    "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\ImalatMontaj.Talep.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\ImalatMontaj.Talep.Mvc.csproj",
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\ImalatMontaj.Talep.Mvc.csproj",
         "projectName": "ImalatMontaj.Talep.Mvc",
-        "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\ImalatMontaj.Talep.Mvc.csproj",
-        "packagesPath": "C:\\Users\\MOD5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\obj\\",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\ImalatMontaj.Talep.Mvc.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Mvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MOD5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -254,8 +254,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj": {
-                "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj"
+              "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj": {
+                "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Talep.Business\\ImalatMontaj.Talep.Business.csproj"
               }
             }
           }

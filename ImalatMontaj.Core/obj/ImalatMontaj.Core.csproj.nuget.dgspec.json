@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj": {}
+    "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj": {
+    "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj",
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj",
         "projectName": "ImalatMontaj.Core",
-        "projectPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj",
-        "packagesPath": "C:\\Users\\MOD5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MOD5\\source\\repos\\ImalatMontaj\\ImalatMontaj.Core\\obj\\",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\ImalatMontaj.Core.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\h\\r\\ImalatMontaj\\ImalatMontaj.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MOD5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
