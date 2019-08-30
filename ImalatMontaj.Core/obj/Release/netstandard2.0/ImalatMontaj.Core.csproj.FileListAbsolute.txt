@@ -1,0 +1,9 @@
+C:\Users\MOD5\source\repos\ImalatMontaj\ImalatMontaj.Core\bin\Release\netstandard2.0\ImalatMontaj.Core.deps.json
+C:\Users\MOD5\source\repos\ImalatMontaj\ImalatMontaj.Core\bin\Release\netstandard2.0\ImalatMontaj.Core.dll
+C:\Users\MOD5\source\repos\ImalatMontaj\ImalatMontaj.Core\bin\Release\netstandard2.0\ImalatMontaj.Core.pdb
+C:\Users\MOD5\source\repos\ImalatMontaj\ImalatMontaj.Core\obj\Release\netstandard2.0\ImalatMontaj.Core.csprojAssemblyReference.cache
+C:\Users\MOD5\source\repos\ImalatMontaj\ImalatMontaj.Core\obj\Release\netstandard2.0\ImalatMontaj.Core.csproj.CoreCompileInputs.cache
+C:\Users\MOD5\source\repos\ImalatMontaj\ImalatMontaj.Core\obj\Release\netstandard2.0\ImalatMontaj.Core.AssemblyInfoInputs.cache
+C:\Users\MOD5\source\repos\ImalatMontaj\ImalatMontaj.Core\obj\Release\netstandard2.0\ImalatMontaj.Core.AssemblyInfo.cs
+C:\Users\MOD5\source\repos\ImalatMontaj\ImalatMontaj.Core\obj\Release\netstandard2.0\ImalatMontaj.Core.dll
+C:\Users\MOD5\source\repos\ImalatMontaj\ImalatMontaj.Core\obj\Release\netstandard2.0\ImalatMontaj.Core.pdb

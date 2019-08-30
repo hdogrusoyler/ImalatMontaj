@@ -1,0 +1,255 @@
+﻿@model Talep
+@{
+    ViewData["Title"] = Model == null ? "Create" : "Edit";
+}
+
+<div class="m-4">
+
+    <div class="bg-success text-white p-4">
+        Talep Ekle Düzenle
+    </div>
+
+    <form asp-action="Edit" method="post">
+
+        <input type="hidden" asp-for="Id" />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>-</th>
+                    <th>-</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @{
+                    if (Model == null)
+                    {
+                        <tr>
+                            <td><label asp-for="Tip"></label></td>
+                            <td>
+                                @*<input asp-for="Tip" class="form-control" />*@
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" asp-for="Tip" value="T" required>
+                                    <label class="form-check-label" asp-for="Tip">Talep</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" asp-for="Tip" value="M" required>
+                                    <label class="form-check-label" asp-for="Tip">Montaj</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="UrunTanimi"></label></td>
+                            <td><textarea asp-for="UrunTanimi" class="form-control" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="TalepEdilenYer"></label></td>
+                            <td><input asp-for="TalepEdilenYer" class="form-control" required /></td>
+                        </tr>
+                        <tr>
+                            <td><b><label asp-for="TalepEdenAdSoyad"></label></b></td>
+                            <td><input asp-for="TalepEdenAdSoyad" class="form-control" required /></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="TalepEdenTarihi"></label></td>
+                            <td><input asp-for="TalepEdenTarihi" class="form-control" required readonly /></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="TalepEdenDepartman"></label></td>
+                            <td><input asp-for="TalepEdenDepartman" class="form-control" required /></td>
+                        </tr>
+                    }
+                    else
+                    {
+                        if (Model.Tip.ToString() == "T")
+                        {
+                            <tr>
+                                <td><label asp-for="Tip"></label></td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" asp-for="Tip" value="T" required>
+                                        <label class="form-check-label" asp-for="Tip">Talep</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" asp-for="Tip" value="M" required disabled>
+                                        <label class="form-check-label" asp-for="Tip">Montaj</label>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                        else if (Model.Tip.ToString() == "M")
+                        {
+                            <tr>
+                                <td><label asp-for="Tip"></label></td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" asp-for="Tip" value="T" required disabled>
+                                        <label class="form-check-label" asp-for="Tip">Talep</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" asp-for="Tip" value="M" required>
+                                        <label class="form-check-label" asp-for="Tip">Montaj</label>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            <tr>
+                                <td><label asp-for="Tip"></label></td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" asp-for="Tip" value="T" required>
+                                        <label class="form-check-label" asp-for="Tip">Talep</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" asp-for="Tip" value="M" required>
+                                        <label class="form-check-label" asp-for="Tip">Montaj</label>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                        <tr>
+                            <td><label asp-for="UrunTanimi"></label></td>
+                            <td><textarea asp-for="UrunTanimi" class="form-control" required readonly></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="TalepEdilenYer"></label></td>
+                            <td><input asp-for="TalepEdilenYer" class="form-control" required readonly /></td>
+                        </tr>
+                        <tr>
+                            <td><b><label asp-for="TalepEdenAdSoyad"></label></b></td>
+                            <td><input asp-for="TalepEdenAdSoyad" class="form-control" required readonly /></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="TalepEdenTarihi"></label></td>
+                            <td><input asp-for="TalepEdenTarihi" class="form-control" required readonly /></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="TalepEdenDepartman"></label></td>
+                            <td><input asp-for="TalepEdenDepartman" class="form-control" required readonly /></td>
+                        </tr>
+                    }
+                    if (Model != null)
+                    {
+                        if (Model.TalepEdenTarihi != null)
+                        {
+                            if (Model.TalepOnayTarihi == null)
+                            {
+                                <tr>
+                                    <td><b><label asp-for="TalepOnayAdSoyad"></label></b></td>
+                                    <td><input asp-for="TalepOnayAdSoyad" class="form-control" required /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepOnayTarihi"></label></td>
+                                    <td><input asp-for="TalepOnayTarihi" class="form-control" required readonly /></td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td><b><label asp-for="TalepOnayAdSoyad"></label></b></td>
+                                    <td><input asp-for="TalepOnayAdSoyad" class="form-control" required readonly /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepOnayTarihi"></label></td>
+                                    <td><input asp-for="TalepOnayTarihi" class="form-control" required readonly /></td>
+                                </tr>
+                            }
+                        }
+
+                        if (Model.TalepOnayTarihi != null)
+                        {
+                            if (Model.TalepYapanTalepTarihi == null)
+                            {
+                                <tr>
+                                    <td><b><label asp-for="TalepYapanAdSoyad"></label></b></td>
+                                    <td><input asp-for="TalepYapanAdSoyad" class="form-control" required /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepYapanTalepTarihi"></label></td>
+                                    <td><input asp-for="TalepYapanTalepTarihi" class="form-control" required readonly /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepYapanDepartman"></label></td>
+                                    <td><input asp-for="TalepYapanDepartman" class="form-control" required /></td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td><b><label asp-for="TalepYapanAdSoyad"></label></b></td>
+                                    <td><input asp-for="TalepYapanAdSoyad" class="form-control" required readonly /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepYapanTalepTarihi"></label></td>
+                                    <td><input asp-for="TalepYapanTalepTarihi" class="form-control" required readonly /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepYapanDepartman"></label></td>
+                                    <td><input asp-for="TalepYapanDepartman" class="form-control" required readonly /></td>
+                                </tr>
+                            }
+                        }
+
+                        if (Model.TalepYapanTalepTarihi != null)
+                        {
+                            if (Model.TalepKontrolTarihi == null)
+                            {
+                                <tr>
+                                    <td><b><label asp-for="TalepKontrolAdSoyad"></label></b></td>
+                                    <td><input asp-for="TalepKontrolAdSoyad" class="form-control" required /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepKontrolTarihi"></label></td>
+                                    <td><input asp-for="TalepKontrolTarihi" class="form-control" required readonly /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepKontrolDepartman"></label></td>
+                                    <td><input asp-for="TalepKontrolDepartman" class="form-control" required /></td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td><b><label asp-for="TalepKontrolAdSoyad"></label></b></td>
+                                    <td><input asp-for="TalepKontrolAdSoyad" class="form-control" required readonly /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepKontrolTarihi"></label></td>
+                                    <td><input asp-for="TalepKontrolTarihi" class="form-control" required readonly /></td>
+                                </tr>
+                                <tr>
+                                    <td><label asp-for="TalepKontrolDepartman"></label></td>
+                                    <td><input asp-for="TalepKontrolDepartman" class="form-control" required readonly /></td>
+                                </tr>
+                            }
+                        }
+
+                    }
+                }
+
+            </tbody>
+        </table>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        @{
+            if (Model == null)
+            {
+                <a class="btn btn-primary" asp-action="Index">
+                    Geri
+                </a>
+            }
+            else
+            {
+                <a class="btn btn-primary" asp-action="Detail" asp-route-id="@Model.Id">
+                    Geri
+                </a>
+            }
+        }
+
+
+    </form>
+
+</div>

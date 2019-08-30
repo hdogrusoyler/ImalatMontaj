@@ -1,0 +1,146 @@
+﻿@model TalepDetay
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="m-4">
+    <div class="bg-success text-white p-3 mb-2">
+        Talep Detayı
+    </div>
+
+    <form method="post" enctype="multipart/form-data" asp-controller="home" asp-action="add" asp-route-id="@ViewBag.Id">
+        <div class="mt-3">
+            @*<p>Upload one file using this form:</p>*@
+            <input type="file" name="files" multiple>
+            <input type="submit" value="Upload">
+        </div>
+    </form>
+
+    <div class="mt-3">
+        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@ViewBag.Id">
+            Onayla
+        </a>
+        <a class="btn btn-primary" asp-action="Delete" asp-route-id="@ViewBag.Id">
+            Sil
+        </a>
+        <a class="btn btn-primary" asp-action="Index">
+            Geri
+        </a>
+    </div>
+
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>-</th>
+                <th>-</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.talep != null)
+            {
+                <tr>
+                    <td><label asp-for="talep.Id"></label></td>
+                    <td>@Model.talep.Id</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.Tip"></label></td>
+                    <td>@Model.talep.Tip</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.UrunTanimi"></label></td>
+                    <td>@Model.talep.UrunTanimi</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.TalepEdilenYer"></label></td>
+                    <td>@Model.talep.TalepEdilenYer</td>
+                </tr>
+                <tr>
+                    <td><b><label asp-for="talep.TalepEdenAdSoyad"></label></b></td>
+                    <td>@Model.talep.TalepEdenAdSoyad</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.TalepEdenTarihi"></label></td>
+                    <td>@Model.talep.TalepEdenTarihi</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.TalepEdenDepartman"></label></td>
+                    <td>@Model.talep.TalepEdenDepartman</td>
+                </tr>
+                <tr>
+                    <td><b><label asp-for="talep.TalepOnayAdSoyad"></label></b></td>
+                    <td>@Model.talep.TalepOnayAdSoyad</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.TalepOnayTarihi"></label></td>
+                    <td>@Model.talep.TalepOnayTarihi</td>
+                </tr>
+                <tr>
+                    <td><b><label asp-for="talep.TalepYapanAdSoyad"></label></b></td>
+                    <td>@Model.talep.TalepYapanAdSoyad</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.TalepYapanTalepTarihi"></label></td>
+                    <td>@Model.talep.TalepYapanTalepTarihi</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.TalepYapanDepartman"></label></td>
+                    <td>@Model.talep.TalepYapanDepartman</td>
+                </tr>
+                <tr>
+                    <td><b><label asp-for="talep.TalepKontrolAdSoyad"></label></b></td>
+                    <td>@Model.talep.TalepKontrolAdSoyad</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.TalepKontrolTarihi"></label></td>
+                    <td>@Model.talep.TalepKontrolTarihi</td>
+                </tr>
+                <tr>
+                    <td><label asp-for="talep.TalepKontrolDepartman"></label></td>
+                    <td>@Model.talep.TalepKontrolDepartman</td>
+
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td colspan="2">Talep Yok</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>-</th>
+                <th>-</th>
+                <th>-</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.fotos?.Count() > 0)
+            {
+                @foreach (var item in Model.fotos)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td><img class="img-thumbnail" src="~/@item.Yol" /></td>
+                        <td>
+                            <a class="btn btn-primary" style="margin:0" asp-action="Remove" asp-route-id="@item.Id" asp-route-rid="@ViewBag.Id">
+                                Sil
+                            </a>
+                        </td>
+                    </tr>
+
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">Foto Yok</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
